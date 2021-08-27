@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC &#128170 </title>    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <p class="texto-explicativo">   IMC é a sigla para Índice de Massa Corporal,que é um cálculo que serve para avaliar se a pessoa está dentro do seu peso ideal em relação à altura.
+       Assim, de acordo com o valor do resultado de IMC, a pessoa pode saber se está dentro do peso ideal, acima ou abaixo do peso desejado.
+       Estar dentro do peso certo é importante porque estar acima ou abaixo desse peso pode influenciar bastante a saúde, aumentando o risco de doenças como desnutrição quando se está abaixo do peso, e AVC ou infarto, quando se está acima do peso.
+       Assim, é comum os médicos, enfermeiros e nutricionistas avaliem o IMC da pessoa nas consultas de rotina para verificar a possibilidade de doenças que a pessoa pode estar pre-disposta
+    </p>
+    </div>
+    
+<fieldset class="fieldset3">
+    <legend>Calculadora IMC</legend>
+    <fieldset class="fieldset1">
+        <legend>Peso</legend>
+        <input type="text" name="inputPeso" placeholder="Ex: 70 em Kg" id="peso" onkeydown="validaTamanhoInput()"> <span class="span-erro" id="erroInputPeso">Número Maximo 3 caracteres </span>
+    </fieldset>
+    
+    <fieldset class="fieldset2">
+        <legend>Altura</legend>
+        <input type="text" name="inputPeso" placeholder="Ex: 1.75 em cm" id="altura" >
+    </fieldset>
+
+    <button onclick="calcular()" class="botao-margem">Calcular</button> <span id="resultadoTexto"></span> <span id="resultado"></span>
+        <img id="imagenResultado" src="">
+
+</fieldset>    
+
+
+<script src="app.js"></script>
+</body>
+</html>

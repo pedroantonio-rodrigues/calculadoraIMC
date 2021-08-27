@@ -1,0 +1,45 @@
+.fieldset1 {
+    padding: auto;
+    background-color:lightgray;
+    border: 4px solid;
+    border-image: linear-gradient(#f6523c, #9f1d0c) 30;
+}
+.fieldset2 {
+    padding: auto;
+    background-color:lightgray;
+    border: 4px solid;
+    border-image: linear-gradient(#f6523c, #9f1d0c) 30;
+}
+.fieldset3{
+    padding: auto;
+    background-color: lightslategrey;
+    border: 4px solid;
+    border-image: linear-gradient(#f6523c, #9f1d0c) 30;
+}
+.botao-margem {
+    padding: auto;
+    margin: 10px;
+    color:lightgray;
+    background-color: maroon;
+}
+
+.span-erro {
+    color: red;
+    font-size: smaller;
+    font-weight: bold;
+    display: none;
+}
+#imgResultado {
+    width: 15%;
+    display: block;
+}
+
+/*
+https://abeso.org.br/obesidade-e-sindrome-metabolica/calculadora-imc/
+https://abeso.org.br/wp-content/uploads/2019/12/imc_01.png
+https://abeso.org.br/wp-content/uploads/2019/12/imc_02.png
+https://abeso.org.br/wp-content/uploads/2019/12/imc_03.png
+https://abeso.org.br/wp-content/uploads/2019/12/imc_04.png
+https://abeso.org.br/wp-content/uploads/2019/12/imc_05.png
+https://abeso.org.br/wp-content/uploads/2019/12/imc_06.png
+*/
